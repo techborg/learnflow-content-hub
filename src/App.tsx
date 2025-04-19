@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -12,6 +13,9 @@ import CourseDetails from "./pages/CourseDetails";
 import Blog from "./pages/Blog";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import UserDashboard from "./pages/UserDashboard";
+import SearchCourses from "./pages/SearchCourses";
+import BlogPost from "./pages/BlogPost";
 
 // Admin pages
 import AdminDashboard from "./pages/admin/Dashboard";
