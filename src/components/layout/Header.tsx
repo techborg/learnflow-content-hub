@@ -34,6 +34,11 @@ export const Header = () => {
                   About
                 </Link>
               </li>
+              <li>
+                <Link to="/contact" className="text-foreground hover:text-purple-400 transition-colors">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>

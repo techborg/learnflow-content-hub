@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -8,7 +9,10 @@ import NotFound from "./pages/NotFound";
 // Public pages
 import Home from "./pages/Home";
 import Courses from "./pages/Courses";
+import CourseDetails from "./pages/CourseDetails";
 import Blog from "./pages/Blog";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 // Admin pages
 import AdminDashboard from "./pages/admin/Dashboard";
@@ -27,7 +31,10 @@ const App = () => (
           {/* Public Routes */}
           <Route path="/" element={<Home />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/courses/:id" element={<CourseDetails />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           
           {/* Admin Routes */}
           <Route path="/admin" element={<AdminDashboard />} />
