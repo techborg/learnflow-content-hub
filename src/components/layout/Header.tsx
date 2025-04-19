@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
@@ -37,6 +36,16 @@ export const Header = () => {
               <li>
                 <Link to="/contact" className="text-foreground hover:text-purple-400 transition-colors">
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link to="/search" className="text-foreground hover:text-purple-400 transition-colors">
+                  Search
+                </Link>
+              </li>
+              <li>
+                <Link to="/dashboard" className="text-foreground hover:text-purple-400 transition-colors">
+                  Dashboard
                 </Link>
               </li>
             </ul>
