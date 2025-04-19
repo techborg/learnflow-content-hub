@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
@@ -8,7 +9,7 @@ export const Header = () => {
       <div className="container mx-auto flex items-center justify-between py-4">
         <div className="flex items-center gap-8">
           <Link to="/" className="flex items-center">
-            <h1 className="text-2xl font-bold text-purple-400">LearnFlow</h1>
+            <h1 className="text-2xl font-bold text-purple-400">TechBorg Learn</h1>
           </Link>
           
           <nav className="hidden md:flex">
@@ -71,3 +72,4 @@ export const Header = () => {
     </header>
   );
 };
+

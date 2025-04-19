@@ -6,9 +6,9 @@ export const Footer = () => {
     <footer className="bg-slate-950 text-white py-12">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
         <div>
-          <h3 className="text-xl font-bold mb-4 text-purple-300">LearnFlow</h3>
+          <h3 className="text-xl font-bold mb-4 text-purple-300">TechBorg Learn</h3>
           <p className="text-slate-300 mb-4">
-            Empowering your learning journey with quality courses and insightful articles.
+            Empowering your tech learning journey with quality courses and insightful articles.
           </p>
         </div>
         
@@ -92,3 +92,4 @@ export const Footer = () => {
     </footer>
   );
 };
+
